@@ -1,6 +1,6 @@
 ﻿using MongoDB.Driver;
 
-MongoClient client = new MongoClient("mongodb+srv://zykkhanbd:wEUPfPIoBwYDY4Cc@cluster0.fkpivbc.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0");
+MongoClient client = new MongoClient("mongodb+srv://zykkhanbd:<db_password>@cluster0.fkpivbc.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0");
 
 List<string> databases = client.ListDatabaseNames().ToList();
 
